@@ -1,0 +1,95 @@
+
+
+body {
+  font-family: "Times", sans-serif;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    
+}
+.header h1{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.header img{
+    width: 200px;
+    height: 200px;
+}
+
+.start {
+  margin-left: 1200px;
+  margin-top: 20px;
+  
+
+}
+
+hr{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}  
+
+
+.sidebar {
+  width: 130px;
+  margin-top: 300px;
+  position:fixed; top: 50px; 
+  z-index: 1;
+  top: 20px;
+  left: 0px;
+  
+}
+.sidebar a {
+  white-space: nowrap;
+  padding: 10px 8px 30px 40px;
+  margin-left: 50px;
+  position:static;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+.sidebar p {
+  margin-left: 40px;
+  font-size: 25px;
+  padding: 10px 8px 6px 16px;
+}
+
+form {
+  margin-top: 20px;
+  margin-left: 1200px;
+
+}
+
+.login {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(10, 12, 11);
+  margin-top: 20px;
+  
+}
+
+.create {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(10, 12, 11);
+  
+}
+
+
+
+
+
+
+  
+  
+
+
+
+

@@ -1,0 +1,57 @@
+<!--Bruges så html og css filerne kan snakke sammen-->
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenFeria</title>
+  
+</head>
+<body>
+ 
+<!--Laver samlet div til header og logo-->
+  <div class="header">
+    <img src="logo.png" alt="Logo-GreenFeria" >
+    <h1>GreenFeria</h1>
+
+    
+  </div>
+<button onclick="logInFunction">Log in</button>
+<!--hr tag der bruges som linje der deler header og sidebar op-->
+<br><hr><br>
+
+
+<!--Sidebar-->
+  <div class="sidebar">
+  <p>Kategorier</p>  
+  <a href="#about">Boligen</a>
+  <a href="#services">Have og byg</a>
+  <a href="#clients">Tøj og mode</a>
+  <a href="#contact">Sport og fritid</a>
+</div>
+
+
+
+<!--HTML form hvor man kan taste oplysninger-->
+<form>
+  <h4>Log in:</h4>
+  <label for="Uname">User name:</label><br>
+  <input type="text" id="Uname" name="Uname" value=""><br>
+  <br>
+
+  <label for="Pname">Password:</label><br>
+  <input type="text" id="Pname" name="Pname" value=""><br>
+  
+  <button class="btn login">Log in</button><br>
+  <br>
+  <button class="btn create">Create an account</button>
+</form>
+
+
+</body>
+</html>
+
